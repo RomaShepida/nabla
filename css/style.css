@@ -36,6 +36,7 @@
 }
 a {
 	text-decoration: none;
+	color: inherit;
 }
 ul,
 ol,
@@ -80,3 +81,5 @@ body {
 	font-size: 18px;
 	line-height: 1.5;
 }
+
+/* =============================== HEADER */
