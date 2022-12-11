@@ -133,3 +133,81 @@ body {
 .buttons-header__button {
 	margin-left: 26px;
 }
+
+/* =============================== HEADER */
+/* ===================== TOP*/
+.top {
+	padding-bottom: 20px;
+}
+.top__container {
+	background-color: #c7e3e9;
+	height: 647px;
+	position: relative;
+}
+.top__container::before {
+	content: "";
+	position: absolute;
+	width: 335px;
+	height: 385px;
+	background: url(../img/main/top/boy.png) no-repeat;
+	bottom: -20px;
+	left: 32px;
+}
+.top__container::after {
+	content: "";
+	position: absolute;
+	width: 341px;
+	height: 374px;
+	background: url(../img/main/top/girl.png) no-repeat;
+	bottom: -20px;
+	right: 32px;
+}
+.top__title {
+	font-family: cabernetjfpro, sans-serif;
+	font-weight: 900;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 87px;
+	color: rgba(4, 0, 98, 1);
+	position: relative;
+	z-index: 2;
+}
+.top__title p:nth-child(1) {
+	font-size: 60px;
+}
+.top__title p:nth-child(2) {
+	font-size: 80px;
+	line-height: 1.32;
+}
+.top__title p:nth-child(3) {
+	font-size: 110px;
+	line-height: 1.32;
+}
+.top__symbol {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.symbol__wrapper {
+	display: inline-block;
+	position: relative;
+	z-index: 2;
+}
+
+.symbol__wrapper::before,
+.symbol__wrapper::after {
+	content: "";
+	width: 196px;
+	height: 2px;
+	background-color: #b3ccdb;
+	position: absolute;
+	top: 50%;
+	left: 0;
+}
+.symbol__wrapper::before {
+	left: -220px;
+}
+.symbol__wrapper::after {
+	left: 90px;
+}
